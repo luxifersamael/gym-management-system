@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="afc7dfcf-fb5d-4488-a69d-62cb9f076267" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/abbonamenti.db" beforeDir="false" afterPath="$PROJECT_DIR$/database/abbonamenti.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/qodana.yaml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/server/serverA.py" beforeDir="false" afterPath="$PROJECT_DIR$/server/serverA.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/serverG.py" beforeDir="false" afterPath="$PROJECT_DIR$/server/serverG.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -244,7 +239,7 @@
       <workItem from="1737483138131" duration="4161000" />
       <workItem from="1737491099881" duration="1211000" />
       <workItem from="1737554227008" duration="2281000" />
-      <workItem from="1737658352479" duration="1376000" />
+      <workItem from="1737658352479" duration="2189000" />
     </task>
     <servers />
   </component>

@@ -11,7 +11,7 @@ lock = threading.Lock()  # Mutex per accesso sicuro al database
 
 def inizializza_database():
     """Crea il database e la tabella abbonamenti se non esistono."""
-    conn = sqlite3.connect('/database/abbonamenti.db')
+    conn = sqlite3.connect('database/abbonamenti.db')
     cursor = conn.cursor()
     cursor.execute('''
         CREATE TABLE IF NOT EXISTS abbonamenti (
@@ -28,7 +28,7 @@ def inizializza_database():
 def gestisci_richiesta(richiesta):
     """Gestisce le richieste ricevute dai client."""
     print(f"Richiesta ricevuta: {richiesta}")
-    conn = sqlite3.connect('/database/abbonamenti.db')
+    conn = sqlite3.connect('database/abbonamenti.db')
     cursor = conn.cursor()
 
     if richiesta['azione'] == 'registra':
