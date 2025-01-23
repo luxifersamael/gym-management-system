@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="afc7dfcf-fb5d-4488-a69d-62cb9f076267" name="Changes" comment="" />
+    <list default="true" id="afc7dfcf-fb5d-4488-a69d-62cb9f076267" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/abbonamenti.db" beforeDir="false" afterPath="$PROJECT_DIR$/database/abbonamenti.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qodana.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/serverA.py" beforeDir="false" afterPath="$PROJECT_DIR$/server/serverA.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/serverG.py" beforeDir="false" afterPath="$PROJECT_DIR$/server/serverG.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -45,34 +53,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.Palestra (1).executor": "Run",
-    "Python.clientM.executor": "Run",
-    "Python.clientP.executor": "Run",
-    "Python.clientRegistration.executor": "Run",
-    "Python.main.executor": "Run",
-    "Python.serverA.executor": "Run",
-    "Python.serverG.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "Rebasing progetto-reti",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/mario/Desktop/UNI/RETI/progetto",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "vcs.Git",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.Palestra (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.clientM.executor&quot;: &quot;Run&quot;,
+    &quot;Python.clientP.executor&quot;: &quot;Run&quot;,
+    &quot;Python.clientRegistration.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.serverA.executor&quot;: &quot;Run&quot;,
+    &quot;Python.serverG.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;progetto-reti&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/mario/Desktop/UNI/RETI/progetto&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "sqlite"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;sqlite&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="QodanaReportsService">
     <option name="descriptions">
       <ReportDescription localRun="true" path="C:\Users\mario\AppData\Local\Temp\qodana_output\qodana.sarif.json" reportGuid="1c0e3b76-0773-4080-8bd4-f061d27a49ce" reportId="progetto/qodana/2025-01-19" />
@@ -80,11 +88,12 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\mario\Desktop\UNI\RETI\progetto\clients" />
       <recent name="C:\Users\mario\Desktop\UNI\RETI\progetto\database" />
       <recent name="C:\Users\mario\Desktop\UNI\RETI\progetto" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.clientM">
+  <component name="RunManager" selected="Python.clientP">
     <configuration name="Palestra (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="progetto" />
       <option name="ENV_FILES" value="" />
@@ -202,8 +211,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.clientM" />
         <item itemvalue="Python.clientP" />
+        <item itemvalue="Python.clientM" />
         <item itemvalue="Python.Palestra (1)" />
         <item itemvalue="Python.serverG" />
         <item itemvalue="Python.serverA" />
@@ -229,7 +238,13 @@
       <workItem from="1737051818491" duration="3075000" />
       <workItem from="1737307607621" duration="7534000" />
       <workItem from="1737321655524" duration="8000" />
-      <workItem from="1737321668888" duration="147000" />
+      <workItem from="1737321668888" duration="2349000" />
+      <workItem from="1737324773626" duration="26000" />
+      <workItem from="1737400851994" duration="1263000" />
+      <workItem from="1737483138131" duration="4161000" />
+      <workItem from="1737491099881" duration="1211000" />
+      <workItem from="1737554227008" duration="2281000" />
+      <workItem from="1737658352479" duration="1376000" />
     </task>
     <servers />
   </component>
@@ -237,12 +252,12 @@
     <option name="version" value="3" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/progetto$serverA.coverage" NAME="serverA Coverage Results" MODIFIED="1737319310207" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/server" />
-    <SUITE FILE_PATH="coverage/progetto$clientP.coverage" NAME="clientP Coverage Results" MODIFIED="1737319388608" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/clients" />
-    <SUITE FILE_PATH="coverage/progetto$clientM.coverage" NAME="clientM Coverage Results" MODIFIED="1737319395745" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/clients" />
-    <SUITE FILE_PATH="coverage/progetto$Palestra__1_.coverage" NAME="Palestra (1) Coverage Results" MODIFIED="1737319367130" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/clients" />
+    <SUITE FILE_PATH="coverage/progetto$serverA.coverage" NAME="serverA Coverage Results" MODIFIED="1737554718293" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/server" />
+    <SUITE FILE_PATH="coverage/progetto$clientM.coverage" NAME="clientM Coverage Results" MODIFIED="1737554771554" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/clients" />
+    <SUITE FILE_PATH="coverage/progetto$clientP.coverage" NAME="clientP Coverage Results" MODIFIED="1737554778933" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/clients" />
+    <SUITE FILE_PATH="coverage/progetto$Palestra__1_.coverage" NAME="Palestra (1) Coverage Results" MODIFIED="1737554730223" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/clients" />
     <SUITE FILE_PATH="coverage/progetto$main.coverage" NAME="main Coverage Results" MODIFIED="1737051859931" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/progetto$clientRegistration.coverage" NAME="clientRegistration Coverage Results" MODIFIED="1737053966289" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/clients" />
-    <SUITE FILE_PATH="coverage/progetto$serverG.coverage" NAME="serverG Coverage Results" MODIFIED="1737319313787" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/server" />
+    <SUITE FILE_PATH="coverage/progetto$serverG.coverage" NAME="serverG Coverage Results" MODIFIED="1737554726344" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/server" />
   </component>
 </project>

@@ -11,7 +11,7 @@ lock = threading.Lock()  # Mutex per accesso sicuro al database
 
 def inizializza_database():
     """Crea il database e la tabella abbonamenti se non esistono."""
-    conn = sqlite3.connect('../database/abbonamenti.db')
+    conn = sqlite3.connect('/database/abbonamenti.db')
     cursor = conn.cursor()
     cursor.execute('''
         CREATE TABLE IF NOT EXISTS abbonamenti (
@@ -28,7 +28,7 @@ def inizializza_database():
 def gestisci_richiesta(richiesta):
     """Gestisce le richieste ricevute dai client."""
     print(f"Richiesta ricevuta: {richiesta}")
-    conn = sqlite3.connect('../database/abbonamenti.db')
+    conn = sqlite3.connect('/database/abbonamenti.db')
     cursor = conn.cursor()
 
     if richiesta['azione'] == 'registra':
@@ -87,21 +87,31 @@ def avvia_server():
     """Avvia il server con gestione dei thread."""
     global is_running
     server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+    server_socket.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)  # Riutilizzo della porta
     server_socket.bind((config.HOST, config.PORT_SERVERA))
     server_socket.listen(10)
+    server_socket.settimeout(1)  # Timeout di 1 secondo per evitare blocchi su accept()
     print(f"ServerA in ascolto su {config.HOST}:{config.PORT_SERVERA}")
 
-    while is_running:
-        try:
-            client_socket, addr = server_socket.accept()
-            print(f"Connessione accettata da {addr}")
-            thread = threading.Thread(target=gestisci_connessione, args=(client_socket,))
-            thread.start()
-        except Exception as e:
-            print(f"Errore nel server: {e}")
-
-    server_socket.close()
-    print("ServerA terminato.")
+    try:
+        while is_running:
+            try:
+                # Accetta connessioni in arrivo
+                client_socket, addr = server_socket.accept()
+                print(f"Connessione accettata da {addr}")
+                thread = threading.Thread(target=gestisci_connessione, args=(client_socket,))
+                thread.start()
+            except socket.timeout:
+                # Timeout scaduto, verifica lo stato di is_running
+                continue
+            except Exception as e:
+                print(f"Errore nel server: {e}")
+    except KeyboardInterrupt:
+        print("\nInterruzione ricevuta, spegnimento del server...")
+        is_running = False
+    finally:
+        server_socket.close()
+        print("ServerA terminato.")
 
 
 def gestisci_sigint(sig, frame):
