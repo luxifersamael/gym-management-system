@@ -3,6 +3,10 @@ import json
 import sqlite3
 import threading
 import signal
+import sys
+import os
+
+sys.path.append(os.path.dirname(os.path.abspath(__file__)) + '/..')
 import config
 
 is_running = True  # Variabile globale per il ciclo del server

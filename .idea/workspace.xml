@@ -5,8 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="afc7dfcf-fb5d-4488-a69d-62cb9f076267" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/Palestra.py" beforeDir="false" afterPath="$PROJECT_DIR$/clients/Palestra.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/clientM.py" beforeDir="false" afterPath="$PROJECT_DIR$/clients/clientM.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/clientP.py" beforeDir="false" afterPath="$PROJECT_DIR$/clients/clientP.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/serverA.py" beforeDir="false" afterPath="$PROJECT_DIR$/server/serverA.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/serverG.py" beforeDir="false" afterPath="$PROJECT_DIR$/server/serverG.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,9 +88,9 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\mario\Desktop\UNI\RETI\progetto" />
       <recent name="C:\Users\mario\Desktop\UNI\RETI\progetto\clients" />
       <recent name="C:\Users\mario\Desktop\UNI\RETI\progetto\database" />
-      <recent name="C:\Users\mario\Desktop\UNI\RETI\progetto" />
     </key>
   </component>
   <component name="RunManager" selected="Python.clientP">
@@ -239,7 +244,7 @@
       <workItem from="1737483138131" duration="4161000" />
       <workItem from="1737491099881" duration="1211000" />
       <workItem from="1737554227008" duration="2281000" />
-      <workItem from="1737658352479" duration="2189000" />
+      <workItem from="1737658352479" duration="6689000" />
     </task>
     <servers />
   </component>
