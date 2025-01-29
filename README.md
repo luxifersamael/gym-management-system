@@ -62,7 +62,7 @@ gym-management-system/
 │   ├── abbonamenti.db       # Database SQLite per gli abbonamenti
 ├── README.md                # Documentazione del progetto
 └── config.py                # File di configurazione (porte, host)
-
+```
 
 ## Authors
 
